@@ -1,0 +1,38 @@
+.task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item-actions button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-item-actions button:nth-child(1) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .task-item-actions button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-item-actions button:hover {
+    opacity: 0.8;
+  }
+  

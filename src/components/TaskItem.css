@@ -1,0 +1,116 @@
+.task-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+  }
+  
+  .task-item-status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .task-item-status.pending {
+    background-color: yellow;
+    color: #333;
+  }
+  
+  .task-item-status.completed {
+    background-color: lightgreen;
+    color: #333;
+  }
+  
+  .task-item-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-item-actions button:nth-child(1) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .task-item-actions button:nth-child(2) {
+    background-color: green; /* Concluir */
+    color: white;
+  }
+  
+  .task-item-actions button:nth-child(3) {
+    background-color: red;
+    color: white;
+  }
+  
+  .task-item-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-form-actions {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .edit-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-form button[type="submit"] {
+    background-color: #007bff; /* Cor para o botão Salvar */
+    color: white;
+  }
+  
+  .edit-form button[type="button"] {
+    background-color: #ccc; /* Cor para o botão Cancelar */
+    color: white;
+  }
+  
+  .edit-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-form button[type="button"]:hover {
+    background-color: #aaa;
+  }
+  
