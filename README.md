@@ -22,8 +22,8 @@ Este é um aplicativo de lista de tarefas desenvolvido em React. O aplicativo pe
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu_usuario/lista-de-tarefas.git
-   cd lista-de-tarefas
+   git clone https://github.com/gus2222/TodoList.git
+   cd TodoList
    ```
 
 2. **Instale as dependências**:
